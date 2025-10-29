@@ -38,8 +38,8 @@ class App(tk.Tk):
         self.current_view = None
          #ToDO: Habilitar login posteriormente -Emix
         self.withdraw() 
-        # self.show_login()
-        self.show_dashboard() 
+        self.show_login()
+        # self.show_dashboard() 
 
     def show_login(self):
         if self.current_view:
