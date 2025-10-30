@@ -62,4 +62,4 @@ htmlcov/
 .flaskenv
 instance/
 settings.py # Si contiene secretos
-config.ini
+config.ini"back/.env" 
