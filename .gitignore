@@ -1,0 +1,65 @@
+# Archivos y directorios de caché
+__pycache__/
+*.pyc
+*.o
+*.so
+.Python/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Entornos Virtuales
+.venv/
+venv/
+env/
+/venv
+/env
+*.venv
+/build/
+
+# IDEs y Editores
+
+# JetBrains (PyCharm, IntelliJ, etc.)
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+
+# Historial del shell IPython
+.ipython/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Miscelánea
+*.log
+*.pot
+*.mo
+*.swp
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Pruebas y Cobertura
+.coverage
+.tox/
+htmlcov/
+.nox/
+
+# Archivos de configuración y datos sensibles (¡Asegúrate de no subir esto!)
+.env
+.flaskenv
+instance/
+settings.py # Si contiene secretos
+config.ini
