@@ -55,7 +55,7 @@ class App(tk.Tk):
             self.current_view.destroy()
         
         self.deiconify()
-        self.current_view = DashboardView(self)
+        self.current_view = DashboardView(self) 
 
 if __name__ == "__main__":
     app = App()
